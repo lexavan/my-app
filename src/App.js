@@ -6,7 +6,7 @@ function App() {
       <header className="Fur guardian">
        
     <h1>Hello</h1>
-  
+  <p>Cute pets</p>
       </header>
     </div>
   );
