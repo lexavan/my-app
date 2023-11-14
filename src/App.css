@@ -76,7 +76,7 @@ section{
 .petInfo {
   display: flex;
   flex-direction: column;
-  align-items: start; /* Align items to the start (left) along the cross-axis (vertically) */
+  align-items: flex-start; /* Align items to the start (left) along the cross-axis (vertically) */
   padding-top: 50px;
   width: 300px;
   
