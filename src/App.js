@@ -7,7 +7,7 @@ import phone from "./Phone.png";
 
 function App() {
   return (
-   
+   <div className="page">
     <div className="FurGuardian">
       <header className="Fur guardian">
         <div className="dog">
@@ -16,8 +16,6 @@ function App() {
         <h1>Hello, I am Myra!</h1>
       </header>
       <section>
-
-      
         
       <div className="container">
   <img src={paw} alt="paw" className="paw" />
@@ -35,14 +33,16 @@ function App() {
       <p>+47 123 45 678</p>
     </div>
   </div>
-
-
-
-        </div>
-
-     
+        </div> 
       </section>
-    </div>
+      </div>
+
+      <footer>
+        <p>If found, please contact my owner!</p>
+      </footer>
+
+</div>
+
   );
 }
 
